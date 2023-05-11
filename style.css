@@ -1,0 +1,151 @@
+.stf{
+    color: #007aff;
+    border-radius: 50px;
+    background-color: lightblue;
+    padding: 5px;
+}
+label{
+    font-weight: 600;
+    font-size: small;
+}
+.pp{
+  text-align: center;
+  font-size: small;
+}
+.blue{
+  background-color: #007aff;
+  border-radius: 10px;
+  transform: 3s;
+  padding: 10px;
+}
+.bluep{
+  text-align: center;
+  font-size: medium;
+  font-weight: 700;
+  color: white;
+}
+.con6{
+  background-color:#0066cc;
+}
+@media screen and (max-width: 700px) {
+    .depcard{
+        padding: 20px;
+        border-radius: 15px;
+      }
+      .accdbg{
+        background-color: #d9b38c;
+        padding: 7px;
+        border-radius: 5px;
+      }
+      .acch6a{
+        font-weight: 700;
+        font-size: small;
+        font-style: italic;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+      }
+      .acch6{
+        font-weight: 800;
+        font-size: 8px;
+      }
+      .accp{
+        font-weight: 700;
+        font-size: xx-small;
+      }
+      .rconfirm{
+        color: white;
+        padding: 6px;
+        border-radius: 50px;
+        background-color: #00e600;
+        font-size: small;
+      }
+      .notsbtn{
+        width: 200px;
+        font-weight: 600;
+        padding: 15px;
+        border-radius: 30px;
+        font-size: x-small;
+      }
+      .brcard{
+        background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/bronze.jpg');
+        background-size: cover;
+        color: white;
+        padding: 7px;
+        border-radius: 55px;
+      }
+      .scard{
+        background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/silver.jpg');
+        background-size: cover;
+        color: white;
+        padding: 7px;
+        border-radius: 55px;
+      }
+      .deph4{
+        font-weight: 700;
+        font-size: small;
+      }
+      .depp{
+        font-size: x-small;
+      }
+}
+@media screen and (min-width: 700px) {
+    .depcard{
+        padding: 40px;
+        border-radius: 15px;
+        width: 800px;
+      }
+      .depp{
+        font-size: medium;
+      }
+      .deph4{
+        font-weight: 700;
+        font-size: smaller;
+      }
+      .accdbg{
+        background-color: #d9b38c;
+        padding: 20px;
+        border-radius: 5px;
+      }
+      .acch6a{
+        font-weight: 700;
+        font-size: medium;
+        font-style: italic;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+      }
+      .accp{
+        font-weight: 700;
+        font-size: x-small;
+      }
+      .acch6{
+        font-weight: 700;
+        font-size: x-small;
+      }
+      .rconfirm{
+        color: white;
+        padding: 10px;
+        border-radius: 50px;
+        background-color: #00e600;
+        font-size: 20px;
+      }
+      .notsbtn{
+        width: 300px;
+        font-weight: 600;
+        padding: 15px;
+        border-radius: 30px;
+      }
+      .brcard{
+        background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/bronze.jpg');
+        background-size: cover;
+        color: white;
+        padding: 10px;
+        border-radius: 55px;
+      }
+      .scard{
+        background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/silver.jpg');
+        background-size: cover;
+        color: white;
+        padding: 10px;
+        border-radius: 55px;
+      }
+}
